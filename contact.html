@@ -1,28 +1,65 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><title>Contact – Kaysons Techno</title>
+  <meta charset="utf-8">
+  <title>Contact – Kaysons Techno</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="header"><div class="container nav">
-  <a class="brand" href="index.html"><img src="https://www.kaysonstechno.com/favicon.ico"><span>Kaysons Techno Equipments Pvt. Ltd.</span></a>
+  <a class="brand" href="index.html"><img src="https://www.kaysonstechno.com/favicon.ico" alt=""><span>Kaysons Techno Equipments Pvt. Ltd.</span></a>
   <nav class="menu">
-    <a href="industries.html">Industries</a><a href="products.html">Products</a><a href="drawings.html">GA Drawings</a><a href="about.html">About</a><a class="active cta">Contact</a>
+    <a href="industries.html">Industries</a>
+    <a href="products.html">Products</a>
+    <a href="drawings.html">GA Drawings</a>
+    <a href="about.html">About</a>
+    <a class="active cta">Contact</a>
   </nav>
 </div></header>
 
-<main><section class="hero"><div class="container">
-  <div class="kicker">Contact</div><h1>Reach Us</h1>
-  <p class="lead">Share your specification and we’ll respond with a proposal.</p>
-</div></section>
+<main>
+  <section class="hero"><div class="container">
+    <div class="kicker">Contact</div>
+    <h1>Reach our team</h1>
+    <p class="lead">Share your application, quantities and target certificates—we’ll revert with a proposal.</p>
+  </div></section>
 
-<section class="section"><div class="container grid cards">
-  <div class="card"><h3>Head Office / Works</h3><p class="small">Plot No. 1802/7, Phase IV, GIDC Industrial Estate, Vithal Udyognagar, Gujarat 388121, India</p><p><strong>Email:</strong> <a href="mailto:sales@kaysonstechno.com">sales@kaysonstechno.com</a></p><p><strong>Phone:</strong> +91 94273 33000 · +91 72111 16001 · +91 94272 22000 · +91 97272 22000</p></div>
-  <div class="card"><h3>Quick Enquiry</h3><form onsubmit="event.preventDefault();alert('Please email sales@kaysonstechno.com');"><input placeholder="Name" required><input type="email" placeholder="Email" required><textarea rows="5" placeholder="Product / Quantity / Specs"></textarea><button class="button primary">Send</button></form></div>
-</div></section></main>
+  <section class="section"><div class="container">
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Head Office / Works</h3>
+        <p class="muted">Plot No. 1802/7, Phase IV, GIDC Industrial Estate, Vithal Udyognagar, Gujarat 388121, India</p>
+        <p><strong>Email:</strong> <a href="mailto:sales@kaysonstechno.com">sales@kaysonstechno.com</a></p>
+        <p><strong>Phones:</strong> +91 94273 33000 · +91 72111 16001 · +91 94272 22000 · +91 97272 22000</p>
+        <p class="small">For product details, see <a href="products.html">Products</a> and <a href="drawings.html">GA Drawings</a>.</p>
+      </div>
+      <div class="card">
+        <h3>Quick Enquiry</h3>
+        <form onsubmit="event.preventDefault();alert('Thanks! Please email details to sales@kaysonstechno.com');" class="stack">
+          <div>
+            <label class="small">Name</label>
+            <input required>
+          </div>
+          <div>
+            <label class="small">Email</label>
+            <input type="email" required>
+          </div>
+          <div>
+            <label class="small">Message</label>
+            <textarea rows="6" placeholder="Product / Quantity / Specs"></textarea>
+          </div>
+          <button class="btn primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </div></section>
+</main>
 
-<footer class="footer"><div class="container fwrap"><div>© <span id="y"></span> Kaysons Techno Equipments Pvt. Ltd.</div><div class="badges"><span>Ex d</span><span>Ex e</span><span>Ex tb</span><span>IP66/67</span></div></div><script>document.getElementById('y').textContent=new Date().getFullYear()</script></footer>
+<footer class="footer"><div class="container row">
+  <div class="small">© <span id="y"></span> Kaysons Techno Equipments Pvt. Ltd.</div>
+  <div class="badges"><span>Ex d</span><span>Ex e</span><span>Ex tb</span><span>IP66/67</span></div>
+</div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
