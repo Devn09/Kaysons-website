@@ -7,8 +7,12 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <header class="header"><div class="container nav">
-  <a class="brand" href="index.html"><img src="https://www.kaysonstechno.com/favicon.ico" alt=""><span>Kaysons Techno Equipments Pvt. Ltd.</span></a>
+  <a class="brand" href="index.html">
+    <img src="https://www.kaysonstechno.com/favicon.ico" alt="Kaysons logo">
+    <span>Kaysons Techno Equipments Pvt. Ltd.</span>
+  </a>
   <nav class="menu">
     <a href="industries.html">Industries</a>
     <a href="products.html">Products</a>
@@ -19,26 +23,57 @@
 </div></header>
 
 <main>
-  <section class="hero"><div class="container">
+  <section class="hero"><div class="container stack">
     <div class="kicker">Explosion-Proof Electrical Equipment</div>
-    <h1>Trusted in refineries, pharmaceuticals, coal mines & chemical plants</h1>
-    <p>We design and manufacture Ex-d / Ex-e / Ex-tb enclosures—lighting fittings, control stations, junction boxes, cable glands and instrument heads—for hazardous areas.</p>
-    <p style="margin-top:16px;">
-      <a class="button primary" href="products.html">Browse Products</a>
-      <a class="button" href="drawings.html" style="margin-left:8px;">GA Drawings</a>
-    </p>
-    <div class="grid hero-cards" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
-      <div class="card"><h3>Lighting Fittings</h3><p class="small">Flameproof luminaires for Zone areas.</p></div>
-      <div class="card"><h3>Control Stations</h3><p class="small">Pushbuttons, selectors, indicators—direct/indirect entry.</p></div>
-      <div class="card"><h3>Junction Boxes</h3><p class="small">Multiple diameters & entries for field wiring.</p></div>
-      <div class="card"><h3>Cable Glands</h3><p class="small">Brass/SS, EPDM/Silicone, barrier types.</p></div>
+    <h1>Built for refineries, pharma, coal mines & chemical plants</h1>
+    <p class="lead">We engineer Ex-d / Ex-e / Ex-tb solutions—lighting fittings, control stations, junction boxes, cable glands, instrument heads—backed by disciplined manufacturing and documentation.</p>
+    <div class="actions">
+      <a class="btn primary" href="products.html">Explore Products</a>
+      <a class="btn ghost" href="drawings.html">View GA Drawings</a>
+    </div>
+  </div></section>
+
+  <section class="section"><div class="container">
+    <div class="grid cols-3">
+      <div class="card">
+        <h3>Explosion Protection</h3>
+        <p class="muted">Ex d / Ex e / Ex tb product families aligned to hazardous-area requirements.</p>
+      </div>
+      <div class="card">
+        <h3>Manufacturing Discipline</h3>
+        <p class="muted">Castings, precision machining, ingress protection and routine validations.</p>
+      </div>
+      <div class="card">
+        <h3>Documentation</h3>
+        <p class="muted">GA drawings and clean specs ready for your project packages.</p>
+      </div>
+    </div>
+  </div></section>
+
+  <section class="band"><div class="container">
+    <div class="mini">Industries we serve</div>
+    <div class="badges" style="margin-top:8px">
+      <span>Refineries</span><span>Pharmaceuticals</span><span>Coal Mines</span><span>Chemical Plants</span>
+      <span>Power & Utilities</span><span>Fertilizer</span>
+    </div>
+  </div></section>
+
+  <section class="section slim"><div class="container">
+    <div class="grid cols-3">
+      <div class="card"><h3>Lighting Fittings</h3><p class="muted">Flameproof luminaires for Zone areas.</p></div>
+      <div class="card"><h3>Control Stations</h3><p class="muted">Pushbuttons, selectors, indicators—direct/indirect entry.</p></div>
+      <div class="card"><h3>Junction Boxes</h3><p class="muted">Multiple diameters & entries for field wiring.</p></div>
+    </div>
+    <div style="margin-top:18px">
+      <a class="btn" href="products.html">Browse all products →</a>
     </div>
   </div></section>
 </main>
 
-<footer class="footer"><div class="container fwrap">
-  <div>© <span id="y"></span> Kaysons Techno Equipments Pvt. Ltd.</div>
+<footer class="footer"><div class="container row">
+  <div class="small">© <span id="y"></span> Kaysons Techno Equipments Pvt. Ltd.</div>
   <div class="badges"><span>Ex d</span><span>Ex e</span><span>Ex tb</span><span>IP66/67</span></div>
-</div><script>document.getElementById('y').textContent=new Date().getFullYear()</script></footer>
+</div></footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
